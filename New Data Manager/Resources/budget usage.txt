@@ -1,0 +1,11 @@
+non-OrderedDataStores
+
+GetAsync = -1 GetAsync Budget
+SetAsync = -1 SetIncrementAsync Budget
+UpdateAsync = -1 GetAsync Budget (IF the specified key has never been obtained by the server before) & -1 SetIncrementAsync Budget
+
+OrderedDataStores (SAME AS ABOVE)
+
+GetSortedAsync = -1 GetSortedAsync Budget
+AdvanceToNextPageAsync = -1 GetSortedAsync Budget
+
