@@ -1,0 +1,4 @@
+New Features:
+Proper data handling, assures data is saved while the server is being shut down and attempts to recover lost data
+Leaderboards
+New punishment data, allows for punishment history and temporary bans.
