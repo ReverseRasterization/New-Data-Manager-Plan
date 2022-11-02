@@ -1,0 +1,5 @@
+Budgeting:
+https://devforum.roblox.com/t/details-on-datastoreservice-for-advanced-developers/175804 
+
+Server Close Handling:
+https://devforum.roblox.com/t/how-to-properly-save-player-data-in-data-stores-upon-server-close/313218
