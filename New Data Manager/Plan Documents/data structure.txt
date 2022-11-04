@@ -1,6 +1,8 @@
 main datastore:
 {
   ['Coins'] = 0 
+  ['Tools] = {}
+  ['isAdmin'] = false
   ['Punishment Data'] = { 
     ['banUnix'] = 0 
     ['history'] = [
@@ -12,7 +14,7 @@ main datastore:
       }
     ]
   }
-  ['isAdmin'] = false
+  
 }
 
 leaderboard
