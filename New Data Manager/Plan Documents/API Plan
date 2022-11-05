@@ -3,8 +3,8 @@ FUNCTIONS
 :modifyTools(player, toolModificationConfig)
 :revokePunishment(player, punishmentID)
 :registerPunishment(player, punishmentConfig)
-:registerBan(playerID, reason, duration, adminName)
-:revokePunishment(playerID, punishmentID, reason, adminName)
+:registerBan(playerID, duration, adminName, reason)             ## Reason may be optional
+:revokePunishment(playerID, punishmentID, adminName, reason)    ## Reason may be optional
 
 ARGUMENT STRUCTURES
 toolModificationConfig:
@@ -16,7 +16,7 @@ toolModificationConfig:
 punsihmentConfig:
         {
             ['type'] = "ban"/"kick"/"warn"
-            ['reason'] = "Reason"
+            ['reason'] = "Reason"       ## Reason may be optional
             ['punishmentUnix'] = 0
             ['admin'] = "StormyZach2007"
         }
