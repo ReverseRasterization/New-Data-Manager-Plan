@@ -1,7 +1,12 @@
 main datastore:
 {
   ['Coins'] = 0 
-  ['Tools'] = {"Tool Name", "Tool Name 2"}
+  ['Tool Config'] = [
+    {
+      ['Tool Name'] = "Tool Name",
+      ['Equipped'] = true
+    }
+  ]
   ['isAdmin'] = false
   ['Punishment Data'] = { 
     ['banData'] = {   ## If the user isn't banned then this wouldn't be a table, it would be nil
