@@ -14,7 +14,7 @@ main datastore:
       ['reason'] = "Reason"
       ['admin'] = "StormyZach2007"
     }
-    ['history'] = [
+    ['history'] = [   ## If the user has no punishment history then this key is nil
       {
         ['id'] = 123456
         ['type'] = "ban"/"kick"/"warn"
