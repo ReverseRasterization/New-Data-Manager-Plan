@@ -1,4 +1,4 @@
 New Features:
-Proper data handling, assures data is saved while the server is being shut down and attempts to recover lost data
+Proper data handling, assures data is saved while the server is being shut down and makes sure the data was 100% fetched before saving it before the player leaves
 Leaderboards
 New punishment data, allows for punishment history and temporary bans.
