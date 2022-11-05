@@ -4,7 +4,11 @@ main datastore:
   ['Tools'] = {"Tool Name", "Tool Name 2"}
   ['isAdmin'] = false
   ['Punishment Data'] = { 
-    ['banUnix'] = 0 
+    ['banData'] = {
+      ['bannedUntil'] = 0
+      ['reason'] = "Reason"
+      ['admin'] = "StormyZach2007"
+    }
     ['history'] = [
       {
         ['id'] = 123456
