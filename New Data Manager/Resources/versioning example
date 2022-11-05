@@ -1,0 +1,27 @@
+--------------------  CODE  --------------------
+
+-- Services
+local DatastoreService = game:GetService("DataStoreService")
+
+-- Variables
+local DataStore = DatastoreService:GetDataStore("VersioningDatastoreTest")
+
+-- Get the pages for versioning
+local VersioningPages = DataStore:ListVersionsAsync("testKey1")
+
+-- Get the versions for the current page
+local Versions = VersioningPages:GetCurrentPage()
+
+-- Iterate through the versions
+for key, info in pairs(Versions) do
+	-- Get the data
+	local VersionData = DataStore:GetVersionAsync("testKey1", info.Version)
+	
+	-- Output
+	print("Key:", key, "; Version:", info.Version, "; Created:", info.CreatedTime, "; Deleted:", info.IsDeleted, "; Data:",VersionData)
+end
+
+-------------------- OUTPUT --------------------
+Key: 1 ; Version: 08DABF52CC0BE798.0000000001.08DABF52CC0BE798.01 ; Created: 1667669155790 ; Deleted: false ; Data: 91  
+Key: 2 ; Version: 08DABF52CC0BE798.0000000002.08DABF531274F575.01 ; Created: 1667669273919 ; Deleted: false ; Data: Hello cruel world 
+Key: 3 ; Version: 08DABF52CC0BE798.0000000003.08DABF53BD31D5B7.01 ; Created: 1667669560369 ; Deleted: false ; Data: 6
