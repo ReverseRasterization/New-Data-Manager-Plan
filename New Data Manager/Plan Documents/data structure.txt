@@ -16,6 +16,11 @@ main datastore:
         ['reason'] = "Reason"
         ['punishmentUnix'] = 0
         ['admin'] = "StormyZach2007"
+        ['revokeData'] = {    ## Only for warn and ban punishments, if the punishment hasn't been revoked then this table would be nil.
+          ['admin'] = "StormyZach2007"
+          ['revokeUnix'] = 0,
+          ['revokeReason'] = "Reason"   ## Reason may be nil if admin didn't provide a reason
+        }
       }
     ]
   }
