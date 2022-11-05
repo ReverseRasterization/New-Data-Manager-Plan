@@ -1,0 +1,12 @@
+function plrLeaving(plr)
+	print("Player Leaving:",plr.Name)
+end
+
+game:BindToClose(function()
+	for _, player in ipairs(game.Players:GetPlayers()) do
+		task.spawn(plrLeaving(player))
+	end
+	
+end)
+
+game.Players.PlayerRemoving:Connect(plrLeaving)
