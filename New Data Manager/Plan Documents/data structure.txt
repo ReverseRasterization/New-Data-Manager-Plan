@@ -4,8 +4,8 @@ main datastore:
   ['Tools'] = {"Tool Name", "Tool Name 2"}
   ['isAdmin'] = false
   ['Punishment Data'] = { 
-    ['banData'] = {
-      ['bannedUntil'] = 0
+    ['banData'] = {   ## If the user isn't banned then this wouldn't be a table, it would be nil
+      ['bannedUntil'] = 0   ## If 0 then ban is permanent
       ['reason'] = "Reason"
       ['admin'] = "StormyZach2007"
     }
