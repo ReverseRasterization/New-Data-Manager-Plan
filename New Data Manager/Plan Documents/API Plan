@@ -3,7 +3,8 @@ FUNCTIONS
 :modifyTools(player, toolModificationConfig)
 :revokePunishment(player, punishmentID)
 :registerPunishment(player, punishmentConfig)
-:registerBan(player, reason, duration)
+:registerBan(playerID, reason, duration, adminName)
+:revokeBan(playerID, adminName)
 
 ARGUMENT STRUCTURES
 toolModificationConfig:
