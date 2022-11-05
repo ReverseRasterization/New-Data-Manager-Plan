@@ -8,7 +8,7 @@ main datastore:
     }
   ]
   ['adminPermissions'] = "Low"/"Medium"/"Super"   ## This is nil if the user isn't an admin
-  ['Punishment Data'] = { 
+  ['Punishment Data'] = {   ## If the user isnt banned nor has a punishment history then this key would be nil
     ['banData'] = {   ## If the user isn't banned then this wouldn't be a table, it would be nil
       ['bannedUntil'] = 0   ## If 0 then ban is permanent
       ['reason'] = "Reason"
