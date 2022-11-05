@@ -1,7 +1,7 @@
 main datastore:
 {
   ['Coins'] = 0 
-  ['Tools] = {}
+  ['Tools'] = {"Tool Name", "Tool Name 2"}
   ['isAdmin'] = false
   ['Punishment Data'] = { 
     ['banUnix'] = 0 
