@@ -13,7 +13,7 @@ main datastore:
       {
         ['id'] = 123456
         ['type'] = "ban"/"kick"/"warn"
-        ['reason'] = "Reason"
+        ['reason'] = "Reason"   ## Reason may be nil if the admin didn't provide a reason
         ['punishmentUnix'] = 0
         ['admin'] = "StormyZach2007"
         ['revokeData'] = {    ## Only for warn and ban punishments, if the punishment hasn't been revoked then this table would be nil.
