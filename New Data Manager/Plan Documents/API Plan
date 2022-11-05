@@ -1,0 +1,21 @@
+FUNCTIONS
+:getDataKey(player, key)
+:modifyTools(player, toolModificationConfig)
+:revokePunishment(player, punishmentID)
+:registerPunishment(player, punishmentConfig)
+:registerBan(player, reason, duration)
+
+ARGUMENT STRUCTURES
+toolModificationConfig:
+        {
+            ['toolName'] = toggle <BOOL>
+            ['toolName2'] = toggle <BOOL>
+        }
+
+punsihmentConfig:
+        {
+            ['type'] = "ban"/"kick"/"warn"
+            ['reason'] = "Reason"
+            ['punishmentUnix'] = 0
+            ['admin'] = "StormyZach2007"
+        }
