@@ -6,3 +6,6 @@ https://devforum.roblox.com/t/how-to-properly-save-player-data-in-data-stores-up
 
 Versioning:
 https://create.roblox.com/docs/scripting/data/data-stores#versioning
+
+Error Codes:
+https://create.roblox.com/docs/scripting/data/data-stores#error-codes
