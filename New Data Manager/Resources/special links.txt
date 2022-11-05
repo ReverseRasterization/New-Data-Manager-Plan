@@ -4,7 +4,7 @@ https://devforum.roblox.com/t/details-on-datastoreservice-for-advanced-developer
 Server Close Handling:
 https://devforum.roblox.com/t/how-to-use-datastore-service-correctly-and-fix-dataloss/1691229
 
-Versioning: (POSSIBLE SCRAP)
+Versioning: (SCRAPPED)
 https://create.roblox.com/docs/scripting/data/data-stores#versioning
 
 Error Codes:
