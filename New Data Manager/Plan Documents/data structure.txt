@@ -7,6 +7,7 @@ main datastore:
     ['banUnix'] = 0 
     ['history'] = [
       {
+        ['id'] = 123456
         ['type'] = "ban"/"kick"/"warn"
         ['reason'] = "Reason"
         ['punishmentUnix'] = 0
