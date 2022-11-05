@@ -3,3 +3,6 @@ https://devforum.roblox.com/t/details-on-datastoreservice-for-advanced-developer
 
 Server Close Handling:
 https://devforum.roblox.com/t/how-to-properly-save-player-data-in-data-stores-upon-server-close/313218
+
+Versioning:
+https://create.roblox.com/docs/scripting/data/data-stores#versioning
