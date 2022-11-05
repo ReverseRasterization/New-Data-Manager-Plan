@@ -4,7 +4,7 @@ FUNCTIONS
 :revokePunishment(player, punishmentID)
 :registerPunishment(player, punishmentConfig)
 :registerBan(playerID, reason, duration, adminName)
-:revokeBan(playerID, adminName)
+:revokePunishment(playerID, punishmentID, reason, adminName)
 
 ARGUMENT STRUCTURES
 toolModificationConfig:
