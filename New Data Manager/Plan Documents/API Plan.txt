@@ -1,5 +1,5 @@
 FUNCTIONS
-:getDataKey(player, key)
+:getDataKey(player, key)        ## If key is "all" then just return all of the user data
 :modifyTools(player, toolModificationConfig)
 :revokePunishment(player, punishmentID)
 :registerPunishment(player, punishmentConfig)
