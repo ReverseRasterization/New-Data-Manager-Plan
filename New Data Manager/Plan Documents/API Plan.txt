@@ -4,7 +4,7 @@ FUNCTIONS
 :registerPunishment(player, punishmentConfig)
 :registerBan(playerID, duration, adminName, reason)             ## Reason may be optional
 :revokePunishment(playerID, punishmentID, adminName, reason)    ## Reason may be optional
-:toggleAdmin(playerID, toggle)
+:toggleAdmin(playerID, nRole)
 :getWinLeaders()
 
 ARGUMENT STRUCTURES
