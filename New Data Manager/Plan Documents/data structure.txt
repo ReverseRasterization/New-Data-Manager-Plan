@@ -1,4 +1,4 @@
-main datastore:
+main key:
 {
   ['Coins'] = 0 
   ['Tool Config'] = [
@@ -8,28 +8,29 @@ main datastore:
     }
   ]
   ['adminPermissions'] = "Low"/"Medium"/"Super"   ## This is nil if the user isn't an admin
-  ['Punishment Data'] = {   ## If the user isnt banned nor has a punishment history then this key would be nil
-    ['banData'] = {   ## If the user isn't banned then this wouldn't be a table, it would be nil
+  ['banData'] = {   ## If the user isn't banned then this wouldn't be a table, it would be nil
       ['bannedUntil'] = 0   ## If 0 then ban is permanent
       ['reason'] = "Reason"
       ['admin'] = "StormyZach2007"
-    }
-    ['history'] = [   ## If the user has no punishment history then this key is nil
-      {
-        ['id'] = 123456
-        ['type'] = "ban"/"kick"/"warn"
-        ['reason'] = "Reason"   ## Reason may be nil if the admin didn't provide a reason
-        ['punishmentUnix'] = 0
-        ['admin'] = "StormyZach2007"
-        ['revokeData'] = {    ## Only for warn and ban punishments, if the punishment hasn't been revoked then this table would be nil.
-          ['admin'] = "StormyZach2007"
-          ['revokeUnix'] = 0,
-          ['revokeReason'] = "Reason"   ## Reason may be nil if admin didn't provide a reason
-        }
-      }
-    ]
   }
-  
+}
+
+punishment history key:
+{
+  ['history'] = [   ## If the user has no punishment history then this key is nil
+    {
+      ['id'] = 123456
+      ['type'] = "ban"/"kick"/"warn"
+      ['reason'] = "Reason"   ## Reason may be nil if the admin didn't provide a reason
+      ['punishmentUnix'] = 0
+      ['admin'] = "StormyZach2007"
+      ['revokeData'] = {    ## Only for warn and ban punishments, if the punishment hasn't been revoked then this table would be nil.
+        ['admin'] = "StormyZach2007"
+        ['revokeUnix'] = 0,
+        ['revokeReason'] = "Reason"   ## Reason may be nil if admin didn't provide a reason
+      }
+    }
+  ]
 }
 
 leaderboard
