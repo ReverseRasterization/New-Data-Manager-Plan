@@ -15,9 +15,9 @@ main key:
   }
 }
 
-punishment history key:
+punishment history key: ## If the user has no punishment history then this key is nil
 {
-  ['history'] = [   ## If the user has no punishment history then this key is nil
+  ['history'] = [  
     {
       ['id'] = 123456
       ['type'] = "ban"/"kick"/"warn"
