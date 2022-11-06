@@ -2,7 +2,6 @@ FUNCTIONS
 :getDataKey(playerID, key)        ## If key is nil then just return all of the user data
 :modifyTools(playerID, toolModificationConfig)
 :registerPunishment(player, punishmentConfig)
-:registerBan(playerID, duration, adminName, reason)             ## Reason may be optional
 :revokePunishment(playerID, punishmentID, adminName, reason)    ## Reason may be optional
 :toggleAdmin(playerID, nRole)
 :getWinLeaders()
@@ -19,5 +18,6 @@ punsihmentConfig:
             ['type'] = "ban"/"kick"/"warn"
             ['reason'] = "Reason"       ## Reason may be optional
             ['punishmentUnix'] = 0
+            ['duration?'] = 0          ## Only used if type = "ban"
             ['admin'] = "StormyZach2007"
         }
