@@ -1,7 +1,7 @@
 FUNCTIONS
-:getDataKey(player, key)        ## If key is nil then just return all of the user data
-:modifyTools(player, toolModificationConfig)
-:revokePunishment(player, punishmentID)
+:getDataKey(playerID, key)        ## If key is nil then just return all of the user data
+:modifyTools(playerID, toolModificationConfig)
+:revokePunishment(playerID, punishmentID)
 :registerPunishment(player, punishmentConfig)
 :registerBan(playerID, duration, adminName, reason)             ## Reason may be optional
 :revokePunishment(playerID, punishmentID, adminName, reason)    ## Reason may be optional
