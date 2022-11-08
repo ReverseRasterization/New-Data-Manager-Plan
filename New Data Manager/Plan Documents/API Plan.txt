@@ -3,7 +3,7 @@ FUNCTIONS
 :modifyTools(playerID, toolModificationConfig)
 :registerPunishment(playerID, punishmentConfig)
 :revokePunishment(playerID, punishmentID, adminName, reason)    ## Reason may be optional
-:toggleAdmin(playerID, nRole)
+:toggleAdmin(playerID, nRole)   ## nRole may be nil if the admin is getting their permissions revoked
 :getWinLeaders()
 
 ARGUMENT STRUCTURES
