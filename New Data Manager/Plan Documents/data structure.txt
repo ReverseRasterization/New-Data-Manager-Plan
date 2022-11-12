@@ -1,7 +1,7 @@
 main key:
 {
   ['Coins'] = 0 
-  ['Tool Config'] = [
+  ['Tool Config'] = [   ## This is nil if the user doesn't have any tools
     {
       ['Tool Name'] = "Tool Name",
       ['Equipped'] = true
