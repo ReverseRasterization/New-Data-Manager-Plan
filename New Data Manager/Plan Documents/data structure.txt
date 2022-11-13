@@ -1,12 +1,9 @@
 main key:
 {
   ['Coins'] = 0 
-  ['Tool Config'] = [   ## This is nil if the user doesn't have any tools
-    {
-      ['Tool Name'] = "Tool Name",
-      ['Equipped'] = true
-    }
-  ]
+  ['Tool Config'] = {    ## This is nil if the user doesn't have any tools
+      ['Tool Name'] = true    ## Key: Tool Name, Value: Equipped
+  }
   ['adminPermissions'] = "Low"/"Medium"/"Super"   ## This is nil if the user isn't an admin
   ['banData'] = {   ## If the user isn't banned then this wouldn't be a table, it would be nil
       ['bannedUntil'] = 0   ## If 0 then ban is permanent
