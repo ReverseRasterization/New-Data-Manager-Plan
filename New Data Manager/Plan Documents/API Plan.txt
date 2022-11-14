@@ -1,7 +1,7 @@
 FUNCTIONS
 :getDataKey(playerID, key)        ## If key is nil then just return all of the user data
 :modifyTools(playerID, toolModificationConfig)
-:registerPunishment(playerID, punishmentConfig)
+:registerPunishment(playerID, punishmentConfig, adminID)
 :revokePunishment(playerID, punishmentID, adminName, reason)    ## Reason may be optional
 :toggleAdmin(playerID, nRole)   ## nRole may be nil if the admin is getting their permissions revoked
 :getWinLeaders()
