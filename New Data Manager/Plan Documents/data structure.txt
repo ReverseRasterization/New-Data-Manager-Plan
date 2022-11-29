@@ -10,6 +10,9 @@ main key:
       ['reason'] = "Reason"
       ['admin'] = "StormyZach2007"
   }
+  ['awaitingWarnData'] = {    ## If the user doesn't have a pending warn, this would be nil
+      ['reason'] = "Reason"
+  }
 }
 
 punishment history key: ## If the user has no punishment history then this key is nil
