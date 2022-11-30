@@ -22,9 +22,9 @@ punishment history key: ## If the user has no punishment history then this key i
     ['reason'] = "Reason"   ## Reason may be nil if the admin didn't provide a reason
     ['punishmentUnix'] = 0
     ['banDuration'] = 0   ## Only for ban punishments 
-    ['admin'] = "StormyZach2007"
+    ['admin'] = adminID
     ['revokeData'] = {    ## if the punishment hasn't been revoked then this table would be nil.
-      ['admin'] = "StormyZach2007"
+      ['admin'] = adminID
       ['revokeUnix'] = 0,
       ['revokeReason'] = "Reason"   ## Reason may be nil if admin didn't provide a reason
     }
